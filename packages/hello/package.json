@@ -1,6 +1,6 @@
 {
   "name": "hello",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "handler.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@monorepo/logger": "^1.0.0"
+    "@monorepo/logger": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.22",
