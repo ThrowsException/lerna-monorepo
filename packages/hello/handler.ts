@@ -1,6 +1,7 @@
-'use strict';
+import logger from '@monorepo/logger';
 
-module.exports.hello = async event => {
+module.exports.hello = async (event) => {
+  logger('Hello World. Ive pulled in our own custom logger');
   return {
     statusCode: 200,
     body: JSON.stringify(
@@ -9,7 +10,7 @@ module.exports.hello = async event => {
         input: event,
       },
       null,
-      2
+      2,
     ),
   };
 };
