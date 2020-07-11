@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@monorepo/logger": "^1.0.1"
+    "logger": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.22",

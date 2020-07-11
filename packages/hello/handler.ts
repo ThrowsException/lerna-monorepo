@@ -1,4 +1,4 @@
-import logger from '@monorepo/logger';
+import logger from 'logger';
 
 module.exports.hello = async (event) => {
   logger('Hello World. Ive pulled in our own custom logger');

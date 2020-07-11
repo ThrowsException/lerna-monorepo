@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "@monorepo/logger": ["logger/src"]
+      // "@monorepo/logger": ["logger/src"]
     }
   }
 }
